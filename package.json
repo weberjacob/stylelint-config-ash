@@ -1,0 +1,24 @@
+{
+  "name": "stylelint-config-ash",
+  "version": "0.0.1",
+  "description": "Generates an opinionated set of rules for stylelint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weberjacob/stylelint-config-ash.git"
+  },
+  "author": "Jacob Weber",
+  "license": "MIT",
+  "homepage": "https://github.com/weberjacob/stylelint-config-ash#readme",
+  "bugs": {
+    "url": "https://github.com/weberjacob/stylelint-config-ash/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "gulp-stylelint",
+    "gulp"
+  ]
+}
