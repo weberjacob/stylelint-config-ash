@@ -1,6 +1,7 @@
 # stylelint-config-ash
+<img src="https://badgen.net/badge/version/1.0-master/cyan?icon=github" alt="Version: 1.0-master"/>
 
-### What it is
+### What is it?
 
 Extends [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended) and generates an opinionated set of rules for Stylelint configuration.
 
