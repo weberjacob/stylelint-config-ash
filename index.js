@@ -7,7 +7,7 @@ module.exports = {
     "stylelint-scss",
   ],
   "rules": {
-    "at-rule-blacklist": [
+    "at-rule-disallowed-list": [
       "debug",
     ],
     "at-rule-no-unknown": [true, {
@@ -71,7 +71,7 @@ module.exports = {
     "declaration-no-important": [true, {
       "message": "There's an !important tag. Is that supposed to be there?"
     }],
-    "declaration-property-value-blacklist": [{
+    "declaration-property-value-disallowed-list": [{
       '/^border/': ['none']
     }, { severity: 'warning' }],
     "function-parentheses-space-inside": "never-single-line",
@@ -128,7 +128,7 @@ module.exports = {
     "string-quotes": ["single", {
       "message": "Single quotes should be used."
     }],
-    "unit-whitelist": [
+    "unit-allowed-list": [
       "px",
       "%",
       "em",

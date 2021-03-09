@@ -1,5 +1,5 @@
 # stylelint-config-ash
-<img src="https://badgen.net/badge/version/1.0-master/cyan?icon=github" alt="Version: 1.0-master"/>
+<img src="https://badgen.net/badge/version/2.0.0-/cyan?icon=github" alt="Version: 2.0.0"/>
 
 ### What is it?
 
