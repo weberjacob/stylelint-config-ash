@@ -5,11 +5,11 @@
 
 Extends [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended) and generates an opinionated set of rules for Stylelint configuration.
 
-The individual rules can be see in the [config itself](./index.js).
+The individual rules can be seen in the [config itself](./index.js).
 
 ## Install
 ```
-npm install --save-dev https://github.com/weberjacob/stylelint-config-ash
+npm install --save-dev https://github.com/weberjacob/stylelint-config-ash#2.0.0
 ```
 
 ## Usage
