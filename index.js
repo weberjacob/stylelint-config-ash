@@ -138,6 +138,7 @@ module.exports = {
       "deg",
       "vw",
       "vh",
+      "fr",
     ],
     "order/order": [
       {
