@@ -7,6 +7,9 @@ Extends [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-
 
 The individual rules can be see in the [config itself](./index.js).
 
+### Why we use it?
+The use of this is to keep a consistent set of SCSS/CSS style rules in place and keep code clean and hopefully error free.
+
 ## Install
 ```
 npm install --save-dev https://github.com/weberjacob/stylelint-config-ash
