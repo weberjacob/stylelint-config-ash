@@ -123,9 +123,17 @@ module.exports = {
     "string-quotes": ["single", {
       "message": "Single quotes should be used."
     }],
-    "value-keyword-case": ["lower", {
-      "message": "Keywords should be lowercase."
-    }],
+    "value-keyword-case": ["lower",
+      {
+        "ignoreKeywords": [
+          "Helvetica",
+          "Arial",
+          "Roboto"
+        ]
+      },
+      {
+        "message": "Keywords should be lowercase."
+      }],
     "unit-allowed-list": [
       "px",
       "%",
