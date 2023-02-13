@@ -25,6 +25,7 @@ module.exports = {
         "error",
         "extend",
         "for",
+        "use",
       ]
     }],
     "at-rule-empty-line-before": [
