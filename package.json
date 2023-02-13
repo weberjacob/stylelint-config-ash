@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ash",
-  "version": "0.0.3",
+  "version": "3.0.0",
   "description": "Generates an opinionated set of rules for stylelint.",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weberjacob/stylelint-config-ash.git"
+    "url": "git+https://github.com/weberjacob/stylelint-config-ash/tree/2.0.0"
   },
   "author": "Jacob Weber",
   "license": "MIT",
-  "homepage": "https://github.com/weberjacob/stylelint-config-ash#readme",
+  "homepage": "https://github.com/weberjacob/stylelint-config-ash/tree/2.0.0#readme",
   "bugs": {
     "url": "https://github.com/weberjacob/stylelint-config-ash/issues"
   },
