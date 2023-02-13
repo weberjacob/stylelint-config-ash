@@ -9,7 +9,7 @@ The individual rules can be seen in the [config itself](./index.js).
 
 ## Install
 ```
-npm install --save-dev https://github.com/weberjacob/stylelint-config-ash#3.0.0
+npm install --save-dev style-lint-config-ash
 ```
 
 ## Usage
