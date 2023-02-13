@@ -1,18 +1,15 @@
 # stylelint-config-ash
-<img src="https://badgen.net/badge/version/1.0-master/cyan?icon=github" alt="Version: 1.0-master"/>
+<img src="https://badgen.net/badge/version/3.0.0/cyan?icon=github" alt="Version: 3.0.0"/>
 
 ### What is it?
 
 Extends [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended) and generates an opinionated set of rules for Stylelint configuration.
 
-The individual rules can be see in the [config itself](./index.js).
-
-### Why we use it?
-The use of this is to keep a consistent set of SCSS/CSS style rules in place and keep code clean and hopefully error free.
+The individual rules can be seen in the [config itself](./index.js).
 
 ## Install
 ```
-npm install --save-dev https://github.com/weberjacob/stylelint-config-ash
+npm install --save-dev https://github.com/weberjacob/stylelint-config-ash#3.0.0
 ```
 
 ## Usage
