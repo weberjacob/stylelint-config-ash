@@ -126,8 +126,10 @@ module.exports = {
     "value-keyword-case": ["lower",
       {
         "ignoreKeywords": [
-          "Helvetica",
           "Arial",
+          "Helvetica",
+          "Times",
+          "Times New Roman",
           "Roboto"
         ]
       },
