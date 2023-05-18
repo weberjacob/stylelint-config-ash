@@ -140,6 +140,7 @@ module.exports = {
       "px",
       "%",
       "em",
+      "fr",
       "rem",
       "s",
       "ms",
