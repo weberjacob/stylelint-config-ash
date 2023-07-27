@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ash",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Generates an opinionated set of rules for stylelint.",
   "main": "index.js",
   "scripts": {
