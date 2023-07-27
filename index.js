@@ -27,6 +27,8 @@ module.exports = {
         "for",
         "use",
         "forward",
+        "tailwind",
+        "apply",
       ]
     }],
     "at-rule-empty-line-before": [
