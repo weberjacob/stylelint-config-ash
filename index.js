@@ -29,6 +29,7 @@ module.exports = {
         "forward",
         "tailwind",
         "apply",
+        "layer",
       ]
     }],
     "at-rule-empty-line-before": [
