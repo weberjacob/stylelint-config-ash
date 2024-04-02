@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 module.exports = {
   extends: "stylelint-config-standard",
@@ -6,12 +6,12 @@ module.exports = {
     "stylelint-order",
     "stylelint-scss",
   ],
-  "rules": {
+  rules: {
     "at-rule-disallowed-list": [
-      "debug",
+      ["debug"],
     ],
     "at-rule-no-unknown": [true, {
-      "ignoreAtRules": [
+      ignoreAtRules: [
         "extends",
         "ignores",
         "mixin",
@@ -35,14 +35,14 @@ module.exports = {
     "at-rule-empty-line-before": [
       "always",
       {
-        "except": [
+        except: [
           "first-nested",
         ],
-        "ignore": [
+        ignore: [
           "after-comment",
           "blockless-after-blockless"
         ],
-        "ignoreAtRules": [
+        ignoreAtRules: [
           "extends",
           "ignores",
           "mixin",
@@ -61,32 +61,33 @@ module.exports = {
     "block-no-empty": true,
     "color-no-hex": true,
     "color-named": ["never", {
-      "message": "Avoid using color literals."
+      message: "Avoid using color literals."
     }],
     "declaration-block-trailing-semicolon": "always",
     "declaration-empty-line-before": [
       "never",
     ],
     "declaration-no-important": [true, {
-      "message": "There's an !important tag. Is that supposed to be there?"
+      message: "There's an !important tag. Is that supposed to be there?"
     }],
     "declaration-property-value-disallowed-list": [{
-      '/^border/': ['none']
+      pattern: /^border/,
+      message: "none"
     }, { severity: 'warning' }],
     "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": ["always",
       {
-        "message": "URLs should be wrapped in quotes",
-        "severity": 'warning',
+        message: "URLs should be wrapped in quotes",
+        severity: 'warning',
       }
     ],
     "indentation": [2,
       {
-        "severity": 'warning',
+        severity: 'warning',
       }
     ],
     "length-zero-no-unit": [true, {
-      "message": "A length set to 0 does not need a unit."
+      message: "A length set to 0 does not need a unit."
     }],
     "max-nesting-depth": 8,
     "no-descending-specificity": null,
@@ -94,13 +95,13 @@ module.exports = {
     "number-leading-zero": "always",
     "property-no-vendor-prefix": [true,
       {
-        "severity": 'warning',
+        severity: 'warning',
       }
     ],
     "rule-empty-line-before": [
       "always",
       {
-        "ignore": [
+        ignore: [
           "after-comment"
         ]
       }
@@ -108,11 +109,11 @@ module.exports = {
     "selector-class-pattern": /^([a-zA-Z0-9_-]+-?)+$/,
     "selector-id-pattern": /^([a-zA-Z0-9_]+-?)+$/,
     "selector-max-id": [0, {
-      "message": "There's an ID being used. Is that supposed to be there?"
+      message: "There's an ID being used. Is that supposed to be there?"
     }],
     "selector-no-qualifying-type": [true,
       {
-        "ignore": [
+        ignore: [
           "attribute",
           "class",
         ]
@@ -120,16 +121,16 @@ module.exports = {
     ],
     "shorthand-property-no-redundant-values": [true,
       {
-        "severity": 'warning',
+        severity: 'warning',
       }
     ],
     "selector-pseudo-element-colon-notation": "single",
     "string-quotes": ["single", {
-      "message": "Single quotes should be used."
+      message: "Single quotes should be used."
     }],
     "value-keyword-case": ["lower",
       {
-        "ignoreKeywords": [
+        ignoreKeywords: [
           "Arial",
           "Helvetica",
           "Times",
@@ -138,7 +139,7 @@ module.exports = {
         ]
       },
       {
-        "message": "Keywords should be lowercase."
+        message: "Keywords should be lowercase."
       }],
     "unit-allowed-list": [
       "px",
@@ -172,4 +173,4 @@ module.exports = {
     "scss/at-mixin-argumentless-call-parentheses": "never",
     "scss/percent-placeholder-pattern": /^([a-z0-9]+-?)+$/,
   }
-}
+};
