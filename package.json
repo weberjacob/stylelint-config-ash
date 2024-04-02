@@ -17,9 +17,10 @@
     "url": "https://github.com/weberjacob/stylelint-config-ash/issues"
   },
   "dependencies": {
-    "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0"
   },
   "keywords": [
     "stylelint",
