@@ -1,12 +1,12 @@
 "use strict";
 
 module.exports = {
-  extends: "stylelint-config-standard",
+  "extends": ["stylelint-config-standard"],
   plugins: [
     "stylelint-order",
     "stylelint-scss",
   ],
-  rules: {
+  "rules": {
     "at-rule-disallowed-list": [
       ["debug"],
     ],
