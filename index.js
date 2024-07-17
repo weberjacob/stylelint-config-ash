@@ -153,11 +153,11 @@ module.exports = {
       "vh",
     ],
     "order/order": [
+      'declarations',
       {
         type: 'at-rule',
         name: 'include',
       },
-      'declarations',
       {
         type: 'at-rule',
         name: 'include',
