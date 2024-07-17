@@ -3,6 +3,7 @@
 module.exports = {
   "extends": ["stylelint-config-standard"],
   plugins: [
+    "stylelint-order",
     "stylelint-scss",
   ],
   "rules": {
@@ -151,6 +152,18 @@ module.exports = {
       "deg",
       "vw",
       "vh",
+    ],
+    "order/order": [
+      'declarations',
+      {
+        type: 'at-rule',
+        name: 'include',
+      },
+      {
+        type: 'at-rule',
+        name: 'include',
+        parameter: 'breakpoint',
+      },
     ],
     "scss/at-extend-no-missing-placeholder": true,
     "scss/dollar-variable-pattern": /^[a-z\-]+$/,
